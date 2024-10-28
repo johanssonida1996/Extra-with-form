@@ -101,12 +101,9 @@ function toggleMenu() {
     }
 
     // // Om menyn öppnas, återställ aktiv länk
-    // if (navbar.classList.contains('active') && activeLinkId) {
-    //     const activeLink = document.querySelector(`.nav-links a[data-target="${activeLinkId}"]`);
-    //     if (activeLink) {
-    //         activeLink.classList.add('active');
-    //     }
-    // }
+    if (navbar.classList.contains('active') && activeLinkId) {
+            activeLink.classList.add('active');
+    }
 }
 
 // Lägg till click-event för menyikonen
